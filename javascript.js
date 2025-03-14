@@ -1,7 +1,8 @@
-let string = "Felipe Tajima";
-let number = 25.2;
-let boolean = true;
-let array = ['item1', 'item2', 'item3', 'item4', 'item5'];
-let objeto = {nome: 'Felipe', idade: 20};
+let carro = 'Ferrari';
+console.log(carro);
 
-console.log(typeof array);
+let precoBolo = 19.99;
+console.log(`R$ ${precoBolo}`);
+
+let cidade = 'São Paulo';
+console.log(cidade);
