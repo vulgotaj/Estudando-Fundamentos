@@ -1,8 +1,5 @@
-let carro = 'Ferrari';
-console.log(carro);
+let idade = 19;
 
-let precoBolo = 19.99;
-console.log(`R$ ${precoBolo}`);
-
-let cidade = 'São Paulo';
-console.log(cidade);
+if (idade >= 18 && idade < 60) {
+    console.log('Você é adulto!');
+}
