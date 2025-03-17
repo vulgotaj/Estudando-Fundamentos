@@ -1,6 +1,5 @@
-let isMember = false;
+let age = 19;
 
-let shipping = isMember ? 2 : 10;
+let isAdult = ((age >= 18) ? 'Sim' : 'Não');
 
-console.log(isMember ? 'Você é membro' : 'Você não é membro');
-console.log("Frete: " + shipping);
+console.log(isAdult);
