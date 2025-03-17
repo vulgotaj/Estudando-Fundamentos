@@ -1,11 +1,19 @@
-let idade = 60;
+let x = 10;
+let y = 5;
+console.log(x !== y);
 
-if (idade < 18 && idade > 0) {
-    console.log('Você é criança!');
-} else if (idade >= 18 && idade <= 60) {
-    console.log('Você é adulto!');
-} else if (idade > 60) {
-    console.log('Você é um idoso!');
+let w = "10";
+let z = 10;
+console.log(w === z);
+
+let a = 10;
+let b = 5;
+console.log(x > y);
+
+let preco = 45.1;
+
+if (preco <= 45) {
+    console.log("A carne está barata!");
 } else {
-    console.log('Insira uma idade válida!')
+    console.log("A carne está cara!");
 }
