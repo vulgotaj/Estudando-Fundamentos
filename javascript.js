@@ -1,19 +1,6 @@
-let x = 10;
-let y = 5;
-console.log(x !== y);
+let isMember = false;
 
-let w = "10";
-let z = 10;
-console.log(w === z);
+let shipping = isMember ? 2 : 10;
 
-let a = 10;
-let b = 5;
-console.log(x > y);
-
-let preco = 45.1;
-
-if (preco <= 45) {
-    console.log("A carne está barata!");
-} else {
-    console.log("A carne está cara!");
-}
+console.log(isMember ? 'Você é membro' : 'Você não é membro');
+console.log("Frete: " + shipping);
