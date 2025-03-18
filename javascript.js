@@ -1,5 +1,18 @@
-let age = 19;
+let profession = "atleta";
 
-let isAdult = ((age >= 18) ? 'Sim' : 'Não');
+console.log("Profissão: " + profession);
 
-console.log(isAdult);
+switch(profession) {
+    case 'fiscal':
+        console.log('Sua camisa será VERDE!');
+        break;
+    case 'bombeiro':
+        console.log('Sua camisa será AZUL!');
+        break;
+    case 'policial':
+        console.log('Sua camisa será AMARELA!');
+        break;
+    default:
+        console.log('Sua camisa será PRETA!');
+        break;
+}
